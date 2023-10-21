@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 130vh;
+}
+.container{
+    height: 112vh;
+    position: relative;
+    top: 20px;
+}
+.container-fluid1{
+    width: 102.8%;
+    height: 10vh;
+    background:blue;
+    position: relative;
+    left: -16px;
+    color: white;
+    font-size: larger;
+    padding: 18px;
+}
+input [type=text],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    top: -20px;
+}
+#Home , #Office{
+    height: 15vh;
+    position: relative;
+    top: -30px;
+}
+.form-group1 span{
+    position: relative;
+    top: -30px;
+}
+.Register{
+    height: 8vh;
+    width: 45%;
+    background-color: blue;
+    position: relative;
+    top: 60px;
+    left: -200px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+.container1{
+    height: 10vh;
+    width: 87%;
+    background-color: rgb(238, 234, 234);
+    position: relative;
+    top: 20px;
+    left: 85px;
+    border: 1px solid #ccc;
+}
+.container1 h5{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+}
+.container1 span{
+    color: blue;
+}
+
+@media (min-width:320px) and (max-width:1024px) {
+    .container-fluid{
+        height: 180vh;
+    }
+    .container{
+        height: 165vh;
+        position: relative;
+        top: 20px;
+    }
+    .Register{
+        height: 8vh;
+        width: 93%;
+        border-radius: 5px;
+        background-color: blue;
+        position: relative;
+        top: 0px;
+        left: 10px;
+        text-align: center;
+        padding: 12px;
+        color: white;
+    }
+    .container-fluid1{
+        width: 112%;
+        height: 10vh;
+        background:blue;
+        position: relative;
+        left: -16px;
+        color: white;
+        font-size: larger;
+        padding: 18px;
+    }
+    .container1{
+        height: 10vh;
+        width: 100%;
+        background-color: rgb(238, 234, 234);
+        position: relative;
+        top: 10px;
+        left: 0px;
+        border: 1px solid #ccc;
+    }
+}
